@@ -1,0 +1,22 @@
+<?php return array (
+  'add_new_ip_filter' => 'Add New IP Filter',
+  'added' => 'IP Filter added.',
+  'could_not_find' => 'Could not find selected IP Filter.',
+  'delete_ip_filter' => 'Delete IP Filter',
+  'deleted' => 'IP Filter deleted.',
+  'description' => 'Description',
+  'edit_ip_filter' => 'Edit IP Filter',
+  'end_ip' => 'End IP',
+  'end_ip_in_range' => 'End IP is in range of other IP.',
+  'invalid_ip_range' => 'This is not a valid Ip range.',
+  'ip_filter' => 'IP Filter',
+  'ip_filter_list' => 'IP Filter List',
+  'other_ip_in_range' => 'Other IP is in range of entered IP.',
+  'start_ip' => 'Start IP',
+  'start_ip_in_range' => 'Start IP is in range of other IP.',
+  'start_ip_same' => 'Start IP is same as other IP.',
+  'tip_ip_filter' => 'If IP Filter is enabled in system configuration and IPs are listed below in the table, then the application can be accessed only via these listed IPs. You can list multiple IPs that can access the application. In this case, all other IPs will be blocked from accessing your application. Note: Always enter your IP in the list so that you are able to access your application.',
+  'updated' => 'IP Filter updated.',
+  'module_info_title' => 'Add some IP Filters here!',
+  'module_info_description' => 'Prevent unauthorised access by defining list of IPs that can access the application.'
+);

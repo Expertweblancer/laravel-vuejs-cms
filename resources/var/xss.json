@@ -1,0 +1,5 @@
+{
+	"api/message/compose": ["body"],
+	"api/message/reply": ["body"],
+	"api/email-template/*": ["body"]
+}

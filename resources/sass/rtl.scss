@@ -1,0 +1,564 @@
+/*
+Template Name: Monster Admin
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+// RTL
+
+body {
+    text-align: right;
+    direction: rtl;
+}
+
+$rgt: left;
+$lft: right;
+.pull-left{
+    float: right;
+}
+.pull-right{
+    float: left;
+}
+.ml-auto{
+    margin-right:auto!important;
+    margin-left: initial !important;
+}
+.mr-auto{
+    margin-left:auto!important;
+    margin-right:initial !important;
+}
+.dropdown-menu-left{
+    right: 0;
+    left: auto;
+    text-align: right;
+}
+.dropdown-menu{
+    text-align: right;
+    
+}
+.dropdown-menu-right{
+    left: 0;
+    right: auto;
+}
+
+.text-right{
+    text-align: left!important;
+}
+.text-left{
+    text-align: right!important;
+}
+
+.m-l-5 {
+    margin-right: 5px !important;
+}
+
+.m-l-10 {
+    margin-right: 10px !important;
+}
+
+.m-l-15 {
+    margin-right: 15px !important;
+}
+
+.m-l-20 {
+    margin-right: 20px !important;
+}
+
+.m-l-30 {
+    margin-right: 30px !important;
+}
+
+.m-l-40 {
+    margin-right: 40px !important;
+}
+
+.m-r-5 {
+    margin-left: 5px !important;
+}
+
+.m-r-10 {
+    margin-left: 10px !important;
+}
+
+.m-r-15 {
+    margin-left: 15px !important;
+}
+
+.m-r-20 {
+    margin-left: 20px !important;
+}
+
+.m-r-30 {
+    margin-left: 30px !important;
+}
+.mr-3{
+    margin-left: 1rem!important;
+    margin-right: 0px!important;
+}
+.m-r-40 {
+    margin-left: 40px !important;
+}
+.p-l-0 {
+    padding-right: 0px !important;
+    padding-left:15px!important; 
+}
+.p-r-0{
+    padding-right: 15px!important;
+    padding-left: 0px!important;
+}
+.p-l-10 {
+    padding-right: 10px !important;
+}
+
+.p-l-20 {
+    padding-right: 20px !important;
+}
+
+.p-r-0 {
+    padding-left: 0px !important;
+}
+
+.p-r-10 {
+    padding-left: 10px !important;
+}
+
+.p-r-20 {
+    padding-left: 20px !important;
+}
+
+.p-r-30 {
+    padding-left: 30px !important;
+}
+
+.p-r-40 {
+    padding-left: 40px !important;
+}
+.pr-3{
+    padding-left: 1rem!important;
+    padding-right: 0px!important;
+}
+.b-r{
+    border-left:1px solid $border!important;
+    border-right: 0px !important;
+}
+.b-l{
+    border-right:1px solid $border!important;
+    border-left: 0px !important;
+}
+/*-- ============================================================== 
+ Small Desktop & above all (1024px) this is for the page wrapper 
+ ============================================================== */
+
+@media(min-width:1024px) {
+   .page-wrapper{
+        margin-right:240px;
+        margin-left:0px;
+    }  
+   .footer{
+            right: 240px;
+            left: 0px;
+      } 
+    
+}
+@media(max-width:1023px) {
+   .page-wrapper{
+        margin-right:60px;
+       margin-left: 0px;
+        
+    }  
+   .footer{
+            right: 60px;
+            left: 0px;
+      }
+    
+}
+@media(min-width:768px) {
+    .mini-sidebar {
+        .page-wrapper{
+            margin-left:0px;
+            margin-right:60px;
+        }
+        .footer{
+            left: 0px;
+            right: 60px;
+        }
+    }
+    .mini-sidebar .sidebar-nav #sidebarnav > li > ul {
+        
+        left: 0px;
+        right: 60px;
+        
+    }
+}
+@media(max-width:767px) {
+    .mini-sidebar {
+        .page-wrapper{
+            margin-left:0px;
+            margin-right:0px;
+        }
+        .footer{
+            left: 0px;
+            right: 0px;
+        }
+        .sidebar-footer{
+            right:-240px;
+        }
+    }
+    .mini-sidebar.show-sidebar .left-sidebar, .mini-sidebar.show-sidebar .sidebar-footer{
+        right: 0px;
+    }
+    .mini-sidebar .sidebar-nav #sidebarnav > li > ul {
+        
+        left: 0px;
+        right: 0px;
+        
+    }
+}
+/*-- ============================================================== 
+ This is for tthe sidebar 
+ ============================================================== */
+.sidebar-footer {
+    right: 0px;
+}
+.sidebar-nav>ul>li>a .label{
+    float:left;
+}
+.shw-rside{
+    left: 0px;
+    right: initial;
+}
+.right-sidebar .rpanel-title span{
+    float: left;
+}
+.chatonline img{
+    float: right;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+/*-- ============================================================== 
+ This is for Header part
+ ============================================================== */
+.topbar .top-navbar{
+    padding: 0 0 0 15px;
+    .navbar-nav{
+        padding: 0px;
+        .sidebartoggler {
+            transform: rotate(180deg);
+        }
+    }
+}
+.breadcrumb-item{
+    float: right;
+}
+.page-titles button{
+    margin-right: 10px;
+}
+.list-group{
+    padding: 0px;
+}
+.topbar .top-navbar .app-search .srh-btn{
+    left: 10px;
+    top:11px;
+    right: initial;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+.mega-dropdown .dropdown-menu{
+    background:#fff none;
+}
+
+.topbar .dropdown-menu-right{
+    
+    left: 0;
+    right: auto;
+}
+/*-- ============================================================== 
+ This is for General Elemtnes
+ ============================================================== */
+.modal-footer>:not(:last-child){
+    margin-left:.25rem;
+}
+.list-inline{
+    padding-right: 0px;
+}
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle), .pagination-lg .page-item:first-child .page-link, .page-item:first-child .page-link{
+    border-top-right-radius:.25rem;
+    border-bottom-right-radius:.25rem;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+}
+.btn-group>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child), .pagination-lg .page-item:last-child .page-link, .page-item:last-child .page-link{
+    border-top-left-radius:.25rem;
+    border-bottom-left-radius:.25rem;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+}
+.custom-select{
+    background:  url(../../images/custom-select.png) left 0.75rem center no-repeat;
+    padding: .375rem .75rem .375rem 1.75rem
+}
+.btn-label{
+    margin: -6px -14px -6px 12px;
+}
+/*-- ============================================================== 
+ This is for Dahboard 1
+ ============================================================== */
+th{
+    text-align: right;
+}
+.stylish-table tbody tr, .comment-widgets .comment-row{
+        border-left: 0px;
+        border-right:4px solid $white;
+    &.active, &:hover{
+        border-left: 0px!important;
+        border-right: 4px solid $themecolor;
+    }
+    
+}
+.todo-list li .assignedto{
+    padding: 0 27px 0 0px;
+}
+.checkbox {
+  padding-right: 20px;
+    padding-left: 0px;
+  label {
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 5px;
+    position: relative;
+    &::before {
+      right: 0px;
+      margin-right: -17px;
+    }
+    &::after {
+      right: 0px;
+      margin-right: -17px;
+      padding-right: 3px;
+    }
+  }
+ }
+.radio {
+    padding-left: 0px;
+    padding-right: 20px;
+  label {
+      padding-left: 0px;
+      padding-right: 5px;
+    &::before {
+      right: 0px;
+      top:3px;    
+      margin-right: -17px;
+      padding-right: 3px;
+    }
+    &::after {
+      right: 5px;
+        top:8px;
+      margin-right: -17px;
+      padding-right: 3px;
+     
+    }
+  }
+ }
+/*-- ============================================================== 
+ This is for Dahboard 2
+ ============================================================== */
+.steamline{
+    margin-left: 0px;
+    margin-right: 20px;
+    border-left: 0px;
+    border-right: 1px solid $border;
+    .sl-left{
+        float: right;
+        margin-left:0px;
+        margin-right:-20px;
+    }
+    .sl-right{
+        padding-left: 0px;
+        padding-right: 50px;
+    }
+}
+.earning-widget, .browser {
+    .label{
+        float: left;
+    }
+}
+.feeds li span{
+    float: left;
+}
+/*-- ============================================================== 
+ This is for Dahboard 3
+ ============================================================== */
+.profiletimeline{
+    margin-right: 70px;
+    margin-left: 10px;
+}
+.profiletimeline .sl-left{
+    float: right;
+    margin-left:10px;
+    margin-right: -70px;
+}
+.like-comm{
+    a{
+        display: inline-block;
+    }
+}
+.css-bar > i{
+    margin-left: 0px;
+    margin-right: 5px;
+}
+/*-- ============================================================== 
+ This is for chat page
+ ============================================================== */
+.chat-main-box{
+  .chat-left-aside{
+      float: right;
+      border-right: 0px;
+      border-left: 1px solid $border;
+   }
+}   
+.right-aside{
+    margin-left: 0px;
+    margin-right: 250px;
+}
+.left-aside{
+    border-left: 1px solid $border;
+    border-right: 0px;
+}
+/*-- ============================================================== 
+ This is for Tab page
+ ============================================================== */
+.vtabs .tabs-vertical{
+    padding-right: 0px;
+    border-left:1px solid $border;
+    border-right: 0px;
+    li a.nav-link.active, li a.nav-link:hover{
+        border-radius: 0 $radius $radius 0;
+     }
+}
+
+.customvtab .tabs-vertical li .nav-link.active, .customvtab .tabs-vertical li .nav-link:hover, .customvtab .tabs-vertical li .nav-link:focus{
+    border-left:2px solid $themecolor;
+    border-right:0px;
+    margin-left: -1px;
+    border-radius: 0 ;
+}
+/*-- ============================================================== 
+ This is for Ribbon page
+ ============================================================== */
+.ribbon-vertical-r {
+    right: auto;
+    left: 12px;
+}
+.ribbon-vertical-l{
+    right:12px;
+}
+.ribbon-vwrapper-reverse {
+    padding: 15px 15px 15px 50px;
+}
+.ribbon-vwrapper{
+    padding: 15px 50px 15px 15px;
+}
+/*-- ============================================================== 
+ This is for Form page
+ ============================================================== */
+.custom-control{
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+}
+.custom-control-indicator{
+    right: 0px;
+}
+
+.form-check-label{
+    padding-left: 0px;
+    padding-right: 1.25rem;
+}
+.form-check-input {
+    margin-right: -1.25rem;
+    margin-left: 0rem;
+}
+.custom-file-control::before{
+    left:-1px;
+    right: initial;
+    border-radius: .25rem 0 0 .25rem;
+}
+.form-control+.input-group-addon:not(:first-child){
+    border-left:1px solid $form-brd;
+    border-right:0px;
+}
+.input-group .form-control:not(:first-child), .input-group-addon:not(:first-child), .input-group-btn:not(:first-child)>.btn, .input-group-btn:not(:first-child)>.btn-group>.btn, .input-group-btn:not(:first-child)>.dropdown-toggle, .input-group-btn:not(:last-child)>.btn-group:not(:first-child)>.btn, .input-group-btn:not(:last-child)>.btn:not(:first-child){
+    border-bottom-left-radius: .25rem;
+    border-top-left-radius: .25rem;
+    border-bottom-right-radius: 0rem;
+    border-top-right-radius: 0rem;
+}
+.input-group-addon:not(:last-child){
+    border-right:1px solid $form-brd;
+    border-left:0px;
+}
+.input-group .form-control:not(:last-child), .input-group-addon:not(:last-child), .input-group-btn:not(:first-child)>.btn-group:not(:last-child)>.btn, .input-group-btn:not(:first-child)>.btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:not(:last-child)>.btn, .input-group-btn:not(:last-child)>.btn-group>.btn, .input-group-btn:not(:last-child)>.dropdown-toggle{
+    border-bottom-right-radius: .25rem;
+    border-top-right-radius: .25rem;
+    border-bottom-left-radius: 0rem;
+    border-top-left-radius: 0rem;
+}
+
+/*-- ============================================================== 
+ This is for Form addons page
+ ============================================================== */
+.bootstrap-select>.dropdown-toggle{
+    padding-left: 25px;
+    padding-right: 15px;
+}
+.dropdown-toggle::after{
+    margin-right: .3em;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option{
+    text-align: right;
+}
+
+.has-warning .form-control-warning, .floating-labels .has-success .form-control, .has-danger .form-control-danger, .has-success .form-control-success{
+    background-position: left 0.75rem center;
+    padding-left:2.25rem;
+    padding-right: 10px;
+}
+.asColorPicker-trigger{
+    right: initial;
+    left:-35px;
+}
+.asColorPicker-clear{
+    left:10px;
+    right: initial;
+}
+.icheck-list{
+   float: right;
+    padding-left: 50px;
+    padding-right: 0px;     
+}
+ul.wysihtml5-toolbar > li{
+    float: right;
+}
+.wysihtml5-sandbox{
+    direction: rtl;
+}
+/*-- ============================================================== 
+ This is for Form wizrd page
+ ============================================================== */
+.wizard-content .wizard>.steps>ul>li:after{
+    left:0px;
+    right:initial;
+}
+.wizard-content .wizard>.steps>ul>li:before{
+    right:0px;
+    left:initial;
+}
+.dataTables_filter, .dataTables_wrapper .dataTables_paginate{
+    float: left;
+}
+
+.tablesaw-toolbar{
+    float: right;
+}
+.tablesaw-enhanced .tablesaw-bar .btn.btn-select{
+    text-align: right;
+}

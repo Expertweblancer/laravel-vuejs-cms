@@ -1,0 +1,8 @@
+{
+	"message" : {
+		"auth_required" : 1,
+		"max_file_size" : 1,
+		"allowed_file_extensions" : ["jpg","png","jpeg","pdf","doc","docx","xls","xlsx","txt"],
+		"max_no_of_files" : 1
+	}
+}

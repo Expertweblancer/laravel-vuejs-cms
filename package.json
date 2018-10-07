@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "browser-sync": "^2.24.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "codemirror": "^5.40.0",
+    "compression-webpack-plugin": "^1.1.12",
+    "cross-env": "^5.2.0",
+    "laravel-mix": "^2.1.14",
+    "lodash": "^4.17.10",
+    "normalize-scss": "^7.0.1",
+    "webpack-bundle-analyzer": "^2.13.1"
+  },
+  "dependencies": {
+    "js-cookie": "^2.2.0",
+    "laravel-vue-pagination": "^1.2.0",
+    "uuid": "^3.3.2",
+    "v-tooltip": "^2.0.0-rc.33",
+    "vue": "^2.5.17",
+    "vue-multiselect": "^2.1.0",
+    "vue-password-strength-meter": "^1.3.2",
+    "vue-router": "^3.0.1",
+    "vue-switches": "^2.0.1",
+    "vue-template-compiler": "^2.5.17",
+    "vuejs-datepicker": "^1.5.3",
+    "vuejs-dialog": "^0.9.0",
+    "vuex": "^3.0.1",
+    "vuex-persistedstate": "^2.5.4",
+    "zxcvbn": "^4.4.2"
+  }
+}
