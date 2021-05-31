@@ -19,7 +19,7 @@
     "laravel-mix": "^2.1.14",
     "lodash": "^4.17.10",
     "normalize-scss": "^7.0.1",
-    "webpack-bundle-analyzer": "^2.13.1"
+    "webpack-bundle-analyzer": "^3.3.2"
   },
   "dependencies": {
     "js-cookie": "^2.2.0",
